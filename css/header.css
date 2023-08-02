@@ -35,10 +35,18 @@ header {
   width: 15px;
 }
 
+.menu-bar__location:hover {
+  cursor: pointer;
+}
+
 .menu-bar__location-icon {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.menu-bar__icons img {
+  cursor: pointer;
 }
 
 .menu-bar__icons {
